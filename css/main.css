@@ -1,0 +1,434 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #dd550c;
+}
+
+body {
+    background: #f8f8f8;
+    min-height: 1000px;
+    padding-top: 70px;
+    /* Margin bottom by footer height */
+    margin-bottom: 150px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  background-color: #f0f0f0;
+}
+
+.navbar-brand {
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f8f8f8;
+  background-color: #dd550c;
+}
+
+.navbar-default {
+  background-color: #f0f0f0;
+  border-color: #e7e7e7;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #f0f0f0;
+  cursor: default;
+  background-color: #dd550c;
+  border-color: #dd550c;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #111111;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 3;
+  color: #111111;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+#footer-image {
+    float: right;
+    height: 110px;
+    width: 110px;
+    margin: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #777777;
+}
+
+#footer-text {
+    margin-top: 34px;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #dd550c;
+  border-radius: 5px;
+}
+
+a.badge:hover,
+a.badge:focus {
+  background-color: #f68026;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.postsOuter {
+    padding: 0 5px;
+}
+
+.posts {
+    border: 1px solid #777777;
+    padding: 20px;
+    margin: 5px 0;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+}
+
+.postsAd {
+    border: 1px solid #777777;
+    margin: 70px 0;
+    padding: 10px 0;
+    background: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+    height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .postsAd {
+        margin: 5px 0;
+    }
+}
+
+.posts h2 {
+    font-size: 1.4em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    min-height: 2em;
+}
+
+.posts h2 a {
+    color: #111111;
+    font-weight: bold;
+}
+
+.posts h4 {
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.posts .img-responsive {
+    max-width: 100%;
+}
+
+.posts p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.posts .sharingButtons {
+    float: right;
+    line-height: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.posts .btn {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #dd550c;
+  border-color: #dd550c;
+}
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #fff;
+  background-color: #f68026;
+  border-color: #f68026;
+}
+.btn-warning:hover {
+  color: #fff;
+  background-color: #f68026;
+  border-color: #f68026;
+}
+
+#sidebarSocial {
+    padding: 10px;
+}
+
+#sidebar {
+    border: 1px solid #777777;
+    padding: 10px;
+    margin: 5px 0;
+    background: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+}
+
+#blogheader {
+    border-top: 2px solid #777777;
+    border-bottom: 2px solid #777777;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebarAd {
+    padding: 30px 0;
+}
+
+#sidebarRecentPosts {
+    padding: 10px;
+}
+
+#sidebarRecentPosts>h3 {
+    margin-top: 0;
+}
+
+#sidebarArchive {
+    padding: 10px;
+}
+
+#sidebarCategory {
+    padding: 10px;
+}
+
+#postContainer, #issues, #contact, #about {
+    border: 1px solid #777777;
+    padding: 20px;
+    margin: 5px 0;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+}
+
+#postContainer .sharingButtons {
+    line-height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#postHeading img {
+    margin-top: 20px;
+}
+
+#postInfo {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+#postContent p {
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+
+#aboutAuthor {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#aboutAuthor img {
+    float: left;
+    margin: 5px 10px 0px 0;
+    width: 150px;
+    height: 150px;
+}
+
+#aboutAuthor p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media only screen and (max-width: 565px) {
+    #postTitle {
+        font-size: 2em;
+    }
+
+    #postInfo {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    #postContent p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #aboutAuthor {
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #aboutAuthor img {
+        float: left;
+        margin: 5px 10px 0px 0;
+        width: 100px;
+        height: 100px;
+    }
+
+    #aboutAuthor p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+#postAd {
+    margin: 20px 0px;
+}
+
+#disqusComments {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#contact h3 {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#issues a.btn {
+    margin-bottom: 10px;
+}
+
+#countdown {
+    background: -webkit-linear-gradient(left,rgba(3,36,77,0.75),rgba(3,36,77,1),rgba(3,36,77,0.75)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(3,36,77,0.75),rgba(3,36,77,1),rgba(3,36,77,0.75)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(3,36,77,0.75),rgba(3,36,77,1),rgba(3,36,77,0.75)); /*Fx 3.6-15*/
+    background: linear-gradient(to right,rgba(3,36,77,0.75),rgba(3,36,77,1),rgba(3,36,77,0.75)); /*Standard*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#countdown div.row {
+    width: 870px;
+    margin: auto;
+}
+
+#countdown h1 {
+    float: left;
+    font-size: 10em;
+    font-weight: bold;
+    color: #dd550c;
+    padding: 0;
+    margin: 10px 10px 10px 0;
+}
+
+#countdown h2 {
+    float: left;
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 40px 0px 40px 10px;
+}
+
+@media only screen and (max-width: 870px) {
+    #countdown div.row {
+        width: 580px;
+        margin: auto;
+    }
+
+    #countdown h1 {
+        font-size: 7em;
+        margin: 15px 10px 15px 0;
+    }
+
+    #countdown h2 {
+        font-size: 2em;
+        margin: ;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #countdown div.row {
+        width: 300px;
+        margin: auto;
+    }
+
+    #countdown h1 {
+        font-size: 3em;
+        margin: 21px 5px 10px 0;
+    }
+
+    #countdown h2 {
+        font-size: 1em;
+        margin: 28px 0px 28px 5px;
+    }
+}
